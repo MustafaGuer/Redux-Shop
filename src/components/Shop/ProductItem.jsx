@@ -2,7 +2,7 @@ import Card from "../UI/Card";
 import styles from "./Products.module.css";
 
 const ProductItem = (props) => {
-  const { title, price, description } = props.item;
+  const { title, price, description } = props;
 
   return (
     <li className={styles.item}>
